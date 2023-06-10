@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Template HTML & CSS & JavaScript</title>
+  </head>
+  <body>
+    <div class="top">
+        <h1>Drag and Drop</h1>
+        <h4 style="padding-top: 11px;"> Using HTML, CSS and JavaScript</h4>
+    </div>
+
+    <div class="container">
+      <div class="cont1">
+        <h2 class="head1">Items</h2>
+        <div class="list" draggable="true">
+          <i class="fa fa-apple" style="font-size: 36px;"></i>List item
+        </div>
+        <div class="list" draggable="true">
+          <i class="fa fa-apple" style="font-size: 36px;"></i>List item
+        </div>
+        <div class="list" draggable="true">
+          <i class="fa fa-apple" style="font-size: 36px;"></i>List item
+        </div>
+        <div class="list" draggable="true">
+          <i class="fa fa-apple" style="font-size: 36px;"></i>List item
+        </div>
+      </div>
+      <div class="cont2">
+        <h2 class="head1">Push items here</h2>
+      </div>
+
+      <div class="sucess">Item Dropped!!</div>
+    </div>
+    <button id="resetButton">Reset</button>
+    <footer style="color: white;">Made by: Shruti Vishwakarma
+        <a href="https://www.linkedin.com/in/shruti-vishwakarma-64baa5226/"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a>
+        <a href="https://github.com/shruti0503"><i class="fa fa-github" style="font-size:36px"></i></a>
+    </footer>
+
+    <!-- Aici importam libraria jQuery -->
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <!-- Aici importam fisierul nostru de JavaScript -->
+    <script src="app.js"></script>
+  </body>
+</html>
